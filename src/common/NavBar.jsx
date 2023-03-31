@@ -49,6 +49,12 @@ class NavBar extends Component {
                 Register
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/engagement-conversation">
+                Engagemnet conversations
+              </Link>
+            </li>
           </ul>
         </div>
       );

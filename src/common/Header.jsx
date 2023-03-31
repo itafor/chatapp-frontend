@@ -9,6 +9,7 @@ import Login from "../Components/Login";
 import Register from "../Components/Register";
 import Profile from "../Components/Profile";
 import Chat from "../Components/Chat";
+import Conversations from "../Components/Conversations";
 
 class Header extends Component {
   state = {
@@ -40,6 +41,11 @@ class Header extends Component {
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/register" element={<Register />} />
             <Route exact path="/chat" element={<Chat />} />
+            <Route
+              exact
+              path="/engagement-conversation"
+              element={<Conversations />}
+            />
 
             <Route
               exact

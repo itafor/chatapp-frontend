@@ -191,7 +191,8 @@ class Chat extends Component {
                     You ({message.sender && message.sender.first_name}{" "}
                     {message.sender && message.sender.last_name})
                     <div className="text-muted small text-nowrap mt--2">
-                      {new Date(message.created_at).getDate() +
+                      {
+                      new Date(message.created_at).getDate() +
                         "/" +
                         new Date(message.created_at).getMonth() +
                         "/" +
