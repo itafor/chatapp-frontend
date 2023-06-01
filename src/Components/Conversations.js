@@ -21,9 +21,7 @@ export default function Conversations() {
 
   const getConversions = (engagementId) => {
     axios
-      .get(
-        `https://staging.truelocal.xyz/api/v1/chat/engagement/${engagementId}`
-      )
+      .get(`http://127.0.0.1:8000/api/v1/chat/engagement/${engagementId}`)
       .then((response) => {
         console.log("engagement and conversations", response?.data);
         console.log("Only the conversations", response?.data?.conversations);

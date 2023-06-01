@@ -55,6 +55,12 @@ class NavBar extends Component {
                 Engagemnet conversations
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/twitter-login">
+                Twitter login
+              </Link>
+            </li>
           </ul>
         </div>
       );

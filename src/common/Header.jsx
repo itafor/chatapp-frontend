@@ -10,6 +10,7 @@ import Register from "../Components/Register";
 import Profile from "../Components/Profile";
 import Chat from "../Components/Chat";
 import Conversations from "../Components/Conversations";
+import TwitterAuth from "../Components/TwitterAuth";
 
 class Header extends Component {
   state = {
@@ -46,6 +47,7 @@ class Header extends Component {
               path="/engagement-conversation"
               element={<Conversations />}
             />
+            <Route exact path="/twitter-login" element={<TwitterAuth />} />
 
             <Route
               exact
