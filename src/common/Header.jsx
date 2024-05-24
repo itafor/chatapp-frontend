@@ -11,6 +11,7 @@ import Profile from "../Components/Profile";
 import Chat from "../Components/Chat";
 import Conversations from "../Components/Conversations";
 import TwitterAuth from "../Components/TwitterAuth";
+import PusherTest from "../Components/PusherTest";
 
 class Header extends Component {
   state = {
@@ -42,6 +43,8 @@ class Header extends Component {
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/register" element={<Register />} />
             <Route exact path="/chat" element={<Chat />} />
+            <Route exact path="/real-time-events" element={<PusherTest />} />
+
             <Route
               exact
               path="/engagement-conversation"

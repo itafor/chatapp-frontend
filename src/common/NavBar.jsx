@@ -61,6 +61,12 @@ class NavBar extends Component {
                 Twitter login
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/real-time-events">
+                Real time events Test
+              </Link>
+            </li>
           </ul>
         </div>
       );
