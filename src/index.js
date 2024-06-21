@@ -10,10 +10,10 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <React.Fragment>
     {/* <App /> */}
     <Header />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById("root")
 );
 
