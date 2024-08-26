@@ -28,7 +28,7 @@ export default function EcstasySaleReview() {
       "total_mtn_sme",
       "total_mtn_dc",
       // "total_mtn_direct",
-      "total_mtn_airtime",
+      // "total_mtn_airtime",
       // "total_mtn_cg",
     ];
     const data = {
