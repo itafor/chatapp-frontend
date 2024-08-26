@@ -7,6 +7,10 @@ class AuthService {
     return http.post("/user/auth/login", data);
   }
 
+  getSalesReview(data) {
+    return http.post("/admin/dashboard-total-mtn-sales", data);
+  }
+
   sendMessage(data) {
     return http.post("/user/chat/send-message", data, {
       headers: AuthHeader(),

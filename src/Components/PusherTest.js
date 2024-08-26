@@ -7,7 +7,7 @@ export default function PusherTest() {
   const [detail, setDetail] = useState(null);
 
   useEffect(() => {
-    const pusher = new Pusher("e60a7b4a12ba0e3e59f7", {
+    const pusher = new Pusher("695b8956c8f44386e235", {
       cluster: "mt1",
       encrypted: true,
     });

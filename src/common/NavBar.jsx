@@ -67,6 +67,14 @@ class NavBar extends Component {
                 Real time events Test
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/sales-summary">
+              Sales summary
+              </Link>
+            </li>
+
+            
           </ul>
         </div>
       );
