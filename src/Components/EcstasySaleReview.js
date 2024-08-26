@@ -52,7 +52,7 @@ export default function EcstasySaleReview() {
       <h2>MTN Sales Reviews</h2>
       <button onClick={getSalesReview}>View Sales Review</button>
       <hr />
-      {salesReviews && salesReviews.length >= 1 ? (
+      {salesReviews && salesReviews["total_mtn"] ? (
         <div>
           <strong>Total MTN</strong>:{" "}
           {salesReviews && salesReviews["total_mtn"]}
@@ -74,7 +74,7 @@ export default function EcstasySaleReview() {
           <br />
         </div>
       ) : (
-        "Loading MTN sales review"
+        "Loading stats ..."
       )}
     </div>
   );
